@@ -1,0 +1,34 @@
+.navContainer {
+    background-color: rgba(255, 255, 255, 0.055) ;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    height: 90px;
+}
+.home {
+    color: white;
+    font-size: 30px;
+    font-family: 'Rampart One', cursive;
+    text-decoration: none;
+}
+.home :hover{
+    color:black;
+}
+.about{
+    color: white;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+}
+.about :hover{
+    color:black;
+}
+@media only screen and (max-width:400px){
+    .navContainer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+}
